@@ -25,10 +25,10 @@ use Illuminate\Notifications\Notifiable;
  *
  * @package App\Models
  */
-class User extends extends Authenticatable
+class User extends Authenticatable
 {
 	use Notifiable;
-	
+
 	protected $table = 'users';
 
 	protected $dates = [
